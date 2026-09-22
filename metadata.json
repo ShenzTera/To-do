@@ -1,0 +1,6 @@
+{
+  "name": "Minimalist Todo List",
+  "description": "A clean, liquid-glass aesthetic to-do list with Supabase cloud authentication, real-time database sync, drag-and-drop reordering, inline editing, and dark mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
