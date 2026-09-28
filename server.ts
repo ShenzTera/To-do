@@ -12,8 +12,8 @@ const PORT = 3000;
 app.use(express.json());
 
 // Supabase Client Lazy Initialization
-const supabaseUrl = process.env.SUPABASE_URL || 'https://tbokjiwhxqaqgcemtjzd.supabase.co';
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 'sb_secret_tKgFiV4syg5hjpFqQrVEXQ_GW7QsdyU';
+const supabaseUrl = process.env.SUPABASE_URL || '';
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || '';
 
 let supabaseClient: SupabaseClient | null = null;
 function getSupabase(): SupabaseClient {
